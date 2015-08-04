@@ -8,10 +8,12 @@
 						<a class="{if $post->thumbnailUrl != ''}image-present{/if}" href="{$post->permalink}" title="{__ 'Permalink to %s' |printf: $post->title}" rel="bookmark">{$post->title}</a>
 					</h1>
 					<div class="entry-meta">
+						<!--
 						{include parts/post-meta.php}
 						{if $post->isSingle and $post->author->bio and $post->isMultiAuthor}
-							{include parts/author-bio.php}
+						{include parts/author-bio.php}
 						{/if}
+						-->
 					</div>
 				</div>
 			{else}

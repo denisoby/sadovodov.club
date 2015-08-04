@@ -11,9 +11,11 @@
 				<aside class="footer-line">
 					<div class="wrapper">
 						<div class="footer-text left">{!$themeOptions->general->footerText}</div>
+						<!--
 						<div class="footer-menu right clearfix">
 							{menu theme_location => footer-menu, container => nav, container_class => footer-menu, menu_class => 'menu clear', depth => 1}
 						</div>
+						-->
 					</div>
 				</aside>
 			</footer>

@@ -5,7 +5,7 @@
 			<span class="icon-date">
 				<div class="date-day">{$post->date|date:"d"}</div>
 				<div class="month-year">
-					<p class="date-month">{$post->date|date:"M"}</p>
+					<p class="date-month"><?php echo date_i18n('M',strtotime($post->date)); ?></p>
 					<p class="date-year">{$post->date|date:"Y"}</p>
 				</div>
 			</span>
