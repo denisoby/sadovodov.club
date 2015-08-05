@@ -1,0 +1,31 @@
+.toolbar {
+text-align: left;
+}
+
+.children {
+margin-left: 10px;
+}
+
+.read-more {
+    border: solid #777777 1px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px #777777;
+    margin-left: 10px;
+    padding: 2px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out 0s;
+}
+
+ul {
+list-style: disc inside none
+}
+
+.widget_archive li, .widget_categories li {
+float: none;
+text-align: left;
+}
+
+.widget_archive a, .widget_categories a, .tagcloud a {
+float: none;
+display: inline;
+}

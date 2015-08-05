@@ -18,6 +18,7 @@
 	<![endif]-->
 
 	<link id="ait-style" rel="stylesheet" type="text/css" media="all" href="{less}">
+	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/fairytale/custom.css">
 	<title>{title}</title>
 </head>
 
