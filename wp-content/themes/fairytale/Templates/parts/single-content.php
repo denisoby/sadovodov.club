@@ -53,7 +53,7 @@
 	{!$post->excerpt}
 </div><!-- .entry-summary -->
 {/if}
-
+<!--
 {if !$site->isSearch}
 	{if !$site->isSingle}
 	<footer class="entry-meta">
@@ -64,3 +64,4 @@
 	</footer>
 	{/if}
 {/if}
+-->
