@@ -1,3 +1,7 @@
+.mainmenu > ul > li > a {
+text-decoration: underline;
+}
+
 .toolbar {
 text-align: left;
 }
@@ -23,6 +27,8 @@ list-style: disc inside none
 .widget_archive li, .widget_categories li {
 float: none;
 text-align: left;
+background: none;
+box-shadow: none;
 }
 
 .widget_archive a, .widget_categories a, .tagcloud a {

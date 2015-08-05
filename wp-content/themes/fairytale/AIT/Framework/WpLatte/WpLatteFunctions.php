@@ -348,7 +348,7 @@ class WpLatteFunctions
 				if ($thisCat->parent != 0)
 					$return .= get_category_parents($parentCat, TRUE, ' ' . $delimiter . ' ');
 
-				$return .= $before . sprintf(__('Category: "%s"', 'ait'), single_cat_title('', false)) . $after;
+				$return .= $before . sprintf("%s", single_cat_title('', false)) . $after;
 
 			}elseif(is_day()){
 				$return .= '<a href="' . get_year_link(get_the_time('Y')) . '">' . get_the_time('Y') . '</a> ' . $delimiter . ' ';
