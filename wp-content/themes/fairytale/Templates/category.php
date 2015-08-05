@@ -7,7 +7,7 @@
 		{if $posts}
 			<header class="entry-title subpage-header">
 				<h1 class="main-title page-title">
-					{__ 'Category Archives: '}<span>{$category->title}</span>
+					<span>{$category->title}</span>
 				</h1>
 			</header>
 

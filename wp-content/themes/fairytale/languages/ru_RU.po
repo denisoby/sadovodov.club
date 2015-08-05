@@ -1,0 +1,359 @@
+# Copyright (C) 2013 AitThemes.com http://ait-themes.com
+# This file is distributed under the same license as the AIT Fairytale WordPress Theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fairytale 1.6\n"
+"Report-Msgid-Bugs-To: http://support.ait-themes.com/categories/wp-fairytale\n"
+"POT-Creation-Date: 2015-08-05 13:35+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-08-05 14:13+0300\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.4\n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
+
+#: \Templates\@layout.php:8 \Templates\parts\single-content.php:37
+#: \Templates\parts\single-content.php:42 \Templates\parts\single-portfoliob.php:31
+msgid "Permalink to %s"
+msgstr "Постоянная ссылка: %s"
+
+#: \Templates\@layout.php:24
+msgid "Search Results for:"
+msgstr "Результаты поиска для: "
+
+#: \Templates\archive.php:11
+msgid "Daily Archives:"
+msgstr "Ежедневные Архивы:"
+
+#: \Templates\archive.php:13
+msgid "Monthly Archives:"
+msgstr "Архив за месяц: %s"
+
+#: \Templates\archive.php:15
+msgid "Yearly Archives:"
+msgstr "Архив за год:"
+
+#: \Templates\archive.php:17
+msgid "Blog Archives"
+msgstr "Архив блога"
+
+#: \Templates\author.php:10
+msgid "Author Archives:"
+msgstr "Архив автора:"
+
+#: \Templates\author.php:22
+msgctxt "about author"
+msgid "About"
+msgstr "Об"
+
+#: \Templates\category.php:10
+msgid "Category Archives: "
+msgstr "Категория Архивы:"
+
+#: \Templates\comments.php:37
+msgid "Reply <span>&darr;</span>"
+msgstr "Ответить <span>&darr;</span>"
+
+#: \Templates\comments.php:44
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки модератором."
+
+#: \Templates\comments.php:52
+msgctxt "comment publish time"
+msgid "at"
+msgstr "в"
+
+#: \Templates\comments.php:68
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: \Templates\comments.php:72
+msgid "Send"
+msgstr "Послать"
+
+#: \Templates\comments.php:76
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: \Templates\header.php:34
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#: \Templates\parts\author-bio.php:6
+msgid "About %s"
+msgstr "Об"
+
+#: \Templates\parts\author-bio.php:10
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: \Templates\parts\breadcrumbs.php:3
+msgid "You are here:"
+msgstr "Вы тут:"
+
+#: \Templates\parts\comments-pagination.php:3
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: \Templates\parts\comments-pagination.php:4
+msgid "Newer Comments &rarr;"
+msgstr "Следующие  комментарии &rarr;"
+
+#: \Templates\parts\content-nav.php:3
+msgid "%s Newer posts"
+msgstr "%s Следующие 5 статей"
+
+#: \Templates\parts\content-nav.php:4
+msgid "%s Older posts"
+msgstr "%s Предыдущие 5 статей"
+
+#: \Templates\parts\content-none.php:4
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: \Templates\parts\content-none.php:7
+msgid ""
+"Apologies, but no results were found for the request. Perhaps searching will help "
+"find a related post."
+msgstr "По вашему запросу ничего не найдено."
+
+#: \Templates\parts\image-nav.php:2
+msgid "%s Previous"
+msgstr "%s Назад"
+
+#: \Templates\parts\image-nav.php:3
+msgid "Next %s"
+msgstr "Вперёд %s"
+
+#: \Templates\parts\post-meta.php:2
+msgid "Featured post"
+msgstr ""
+
+#: \Templates\parts\post-meta.php:4
+msgid "Posted:"
+msgstr ""
+
+#: \Templates\parts\post-meta.php:4
+msgid "View all posts by"
+msgstr ""
+
+#: \Templates\parts\post-meta.php:8
+msgid "Categories:"
+msgstr "Рубрики:"
+
+#: \Templates\parts\post-meta.php:14
+msgid "Tags: "
+msgstr "Теги: "
+
+#: \Templates\parts\search-form.php:3
+msgid "search..."
+msgstr "поиск..."
+
+#: \Templates\parts\search-form.php:4
+msgid "Search"
+msgstr "Поиск"
+
+#: \Templates\parts\single-content.php:12 \Templates\parts\single-portfoliob.php:11
+msgctxt "share button"
+msgid "share"
+msgstr "поделиться"
+
+#: \Templates\parts\single-portfoliob.php:42
+msgid "Continue reading %s"
+msgstr ""
+
+#: \Templates\tag.php:10
+msgid "Tag Archives:"
+msgstr ""
+
+#: AIT\Framework\WpLatte\WpLatteFunctions.php:
+msgid "Home"
+msgstr "Главная"
+
+#: AIT\Framework\WpLatte\WpLatteFunctions.php:
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: AIT\Framework\WpLatte\WpLatteFunctions.php:
+msgid "Edit This"
+msgstr ""
+
+#: AIT\Framework\WpLatte\WpLatteFunctions.php:
+msgid "Edit comment"
+msgstr ""
+
+#: AIT\Framework\WpLatte\WpLatteFunctions.php:
+msgid "Category: \"%s\""
+msgstr "Рубрика: \"%s\""
+
+#: AIT\Framework\WpLatte\WpLatteFunctions.php:
+msgid "Posts tagged &quot;%s&quot;"
+msgstr ""
+
+#: AIT\Framework\WpLatte\WpLatteFunctions.php:
+msgid "Author: &quot;%s&quot;"
+msgstr ""
+
+#: AIT\Framework\WpLatte\WpLatteFunctions.php:
+msgid "Search results for &quot;%s&quot;"
+msgstr "Результаты поиска для &quot;%s&quot;"
+
+#: AIT\Framework\WpLatte\WpLatteFunctions.php:
+msgid "Prev"
+msgstr "Назад"
+
+#: AIT\Framework\WpLatte\WpLatteFunctions.php:
+msgid "Next"
+msgstr "Вперёд"
+
+#: AIT\Framework\WpLatte\WpLatteFunctions.php:
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: functions.php:26
+msgid "Sections Order"
+msgstr ""
+
+#: functions.php:34
+msgid "Slider settings"
+msgstr ""
+
+#: functions.php:42
+msgid "Service Boxes settings"
+msgstr ""
+
+#: functions.php:50
+msgid "Testimonials settings"
+msgstr ""
+
+#: functions.php:58
+msgid "Icon Menu settings"
+msgstr ""
+
+#: functions.php:66
+msgid "Partners settings"
+msgstr ""
+
+#: functions.php:118
+msgid "Primary Menu"
+msgstr "Главное меню"
+
+#: functions.php:119
+msgid "Footer Menu"
+msgstr "Меню футера"
+
+#: functions.php:147
+msgid "Home Sidebar"
+msgstr ""
+
+#: functions.php:148
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:149
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:150
+msgid "Post Sidebar"
+msgstr ""
+
+#: functions.php:151
+msgid "Footer Widgets Area"
+msgstr ""
+
+#: ait-flickr-widget.php:17
+msgid "Display flickr images"
+msgstr ""
+
+#: ait-flickr-widget.php:21
+msgid "Theme &rarr; Flickr"
+msgstr ""
+
+#: ait-flickr-widget.php:131 ait-post-widget.php:180 ait-submenu-widget.php:96
+msgid "Title"
+msgstr "Заголовок"
+
+#: ait-flickr-widget.php:136
+msgid "RSS"
+msgstr ""
+
+#: ait-flickr-widget.php:141 ait-post-widget.php:184
+msgid "Number of posts"
+msgstr ""
+
+#: ait-flickr-widget.php:146 ait-post-widget.php:206
+msgid "Thumbnail width"
+msgstr ""
+
+#: ait-flickr-widget.php:151 ait-post-widget.php:211
+msgid "Thumbnail height"
+msgstr ""
+
+#: ait-person-widget.php:23
+msgid "Display person"
+msgstr ""
+
+#: ait-person-widget.php:27
+msgid "Theme &rarr; Person"
+msgstr ""
+
+#: ait-person-widget.php:97
+msgid "Person"
+msgstr ""
+
+#: ait-person-widget.php:116
+msgid "Display Title"
+msgstr ""
+
+#: ait-person-widget.php:122
+msgid "Display Image"
+msgstr ""
+
+#: ait-person-widget.php:128
+msgid "Display Description"
+msgstr ""
+
+#: ait-person-widget.php:134
+msgid "Display Phone"
+msgstr ""
+
+#: ait-post-widget.php:18
+msgid "Customize displaying posts"
+msgstr ""
+
+#: ait-post-widget.php:22
+msgid "Theme &rarr; Posts"
+msgstr ""
+
+#: ait-post-widget.php:123
+msgid "read more"
+msgstr "читать далее"
+
+#: ait-post-widget.php:189
+msgid "Excerpt length"
+msgstr ""
+
+#: ait-post-widget.php:196
+msgid "Show read more"
+msgstr ""
+
+#: ait-post-widget.php:202
+msgid "Show thumbnails"
+msgstr ""
+
+#: ait-post-widget.php:216
+msgid "Thumbnail position"
+msgstr ""
+
+#: ait-submenu-widget.php:15
+msgid "Show submenu"
+msgstr ""
+
+#: ait-submenu-widget.php:19
+msgid "Theme &rarr; Submenu"
+msgstr ""

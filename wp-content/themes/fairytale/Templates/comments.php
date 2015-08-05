@@ -8,7 +8,7 @@
 			<span class="comments-count">{!$post->commentsCount}</span>
 		</div>
 		<h2 id="comments-title">
-			 on "{$post->title}"
+			 комментария к статье "{$post->title}"
 		</h2>
 
 		{include parts/comments-pagination.php, location => 'above'}

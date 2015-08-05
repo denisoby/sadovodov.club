@@ -1,8 +1,8 @@
-<?php //netteCache[01]000465a:2:{s:4:"time";s:21:"0.30234600 1437883968";s:9:"callbacks";a:3:{i:0;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:9:"checkFile";}i:1;s:76:"/opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/comments.php";i:2;i:1437883843;}i:1;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:20:"NFramework::REVISION";i:2;s:30:"eee17d5 released on 2011-08-13";}i:2;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:21:"WPLATTE_CACHE_VERSION";i:2;i:4;}}}?><?php
+<?php //netteCache[01]000465a:2:{s:4:"time";s:21:"0.12410600 1438773075";s:9:"callbacks";a:3:{i:0;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:9:"checkFile";}i:1;s:76:"/opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/comments.php";i:2;i:1438773071;}i:1;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:20:"NFramework::REVISION";i:2;s:30:"eee17d5 released on 2011-08-13";}i:2;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:21:"WPLATTE_CACHE_VERSION";i:2;i:4;}}}?><?php
 
 // source file: /opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/comments.php
 
-?><?php list($_l, $_g) = NCoreMacros::initRuntime($template, 'vzhdix9vpx')
+?><?php list($_l, $_g) = NCoreMacros::initRuntime($template, 'yrp3bonx8j')
 ;
 // snippets support
 if (!empty($control->snippetMode)) {
@@ -21,10 +21,10 @@ if ($post->comments): ?>
 			<span class="comments-count"><?php echo $post->commentsCount ?></span>
 		</div>
 		<h2 id="comments-title">
-			 on "<?php echo NTemplateHelpers::escapeHtml($post->title, ENT_NOQUOTES) ?>"
+			 комментария к статье "<?php echo NTemplateHelpers::escapeHtml($post->title, ENT_NOQUOTES) ?>"
 		</h2>
 
-<?php NCoreMacros::includeTemplate("parts/comments-pagination.php", array('location' => 'above') + $template->getParams(), $_l->templates['vzhdix9vpx'])->render() ?>
+<?php NCoreMacros::includeTemplate("parts/comments-pagination.php", array('location' => 'above') + $template->getParams(), $_l->templates['yrp3bonx8j'])->render() ?>
 
 <?php 
 			$a = array('comments' => $post->comments);
@@ -118,7 +118,7 @@ if ($post->comments): ?>
 			else
 				echo "</ol>" ?>
 
-<?php NCoreMacros::includeTemplate("parts/comments-pagination.php", array('location' => 'below') + $template->getParams(), $_l->templates['vzhdix9vpx'])->render() ?>
+<?php NCoreMacros::includeTemplate("parts/comments-pagination.php", array('location' => 'below') + $template->getParams(), $_l->templates['yrp3bonx8j'])->render() ?>
 
 <?php elseif (!$post->hasOpenComments and $post->type != 'page' and $post->hasSupportFor('comments')): ?>
 

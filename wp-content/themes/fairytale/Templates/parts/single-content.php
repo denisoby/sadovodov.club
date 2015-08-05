@@ -51,6 +51,7 @@
 {else}
 <div class="entry-content">
 	{!$post->excerpt}
+	<a class="read-more" href="{$post->permalink}">Читать далее</a>
 </div><!-- .entry-summary -->
 {/if}
 <!--
