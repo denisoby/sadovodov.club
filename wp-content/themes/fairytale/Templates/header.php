@@ -83,14 +83,7 @@
 				<header class="page-header clearfix">
 					<div class="wrapper clearfix">
 						<div class="logo left clearfix">
-							<a href="{$homeUrl}" class="trademark"><img src="{$themeOptions->general->logoImg}" alt="{$themeOptions->general->tagline}"></a>
-							<div class="table">
-							{if !empty($themeOptions->general->tagline)}
-								<div class="tagLineHolder">
-									<p class="left textshadow info">{!$themeOptions->general->tagline}</p>
-								</div>
-							{/if}
-							</div>
+							<a href="{$homeUrl}"><h1 class="header-logo">{!$themeOptions->general->tagline}</h1></a>
 						</div>
 						<aside class="quick-info right">
 							<!--	<span class="button share-button right"><a href="{if $site->isHomepage or $site->is404}{$homeUrl}{else}{$post->permalink}{/if}" class="share-link" rel="prettySociable">share</a></span>-->

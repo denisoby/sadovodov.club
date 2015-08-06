@@ -1,5 +1,5 @@
 <div class="toolbar clearfix">
 	<div class="wrapper">
-		<span class="breadcrumbs">{__ 'You are here:'} {breadcrumbs delimiter => ""}</span>
+		<span class="breadcrumbs">{breadcrumbs delimiter => ""}</span>
 	</div>
 </div>

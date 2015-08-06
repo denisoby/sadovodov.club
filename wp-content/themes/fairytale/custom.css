@@ -1,3 +1,7 @@
+#nav-below a, #nav-above a, #nav-single a {
+font-size: 14px;
+}
+
 .mainmenu > ul > li > a {
 text-decoration: underline;
 }
@@ -18,10 +22,31 @@ margin-left: 10px;
     text-decoration: none;
     transition: all 0.25s ease-in-out 0s;
     float: right;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.entry-content ol {
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding: 0 0 0 16px;
+    list-style: inside none none;
+}
+
+.entry-content ol li {
+    list-style-type: decimal;
+}
+
+.entry-content ol ul li {
+    list-style-type: square;
 }
 
 ul {
 list-style: disc inside none
+}
+
+ul,ol {
+font-size: 16px;
 }
 
 .widget_archive li, .widget_categories li {
@@ -29,9 +54,44 @@ float: none;
 text-align: left;
 background: none;
 box-shadow: none;
+font-size: 16px;
 }
 
 .widget_archive a, .widget_categories a, .tagcloud a {
 float: none;
 display: inline;
+}
+
+#respond #submit {
+font-size: 14px;
+}
+
+.entry-content p {
+font-size: 16px;
+}
+
+.hentry h2.entry-title a {
+font-size: 28px;
+}
+
+.entry-content h3 {
+font-size: 20px;
+}
+
+.entry-content h4 {
+font-size: 18px;
+}
+
+h2.widget-title {
+font-size: 18px;
+}
+
+body {
+font-size: 14px;
+}
+
+.header-logo {
+color: #fff;
+font-weight: 700;
+font-style: italic;
 }

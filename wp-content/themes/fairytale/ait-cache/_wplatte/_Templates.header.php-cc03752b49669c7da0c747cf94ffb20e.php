@@ -1,8 +1,8 @@
-<?php //netteCache[01]000463a:2:{s:4:"time";s:21:"0.41348400 1438757192";s:9:"callbacks";a:3:{i:0;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:9:"checkFile";}i:1;s:74:"/opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/header.php";i:2;i:1438757184;}i:1;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:20:"NFramework::REVISION";i:2;s:30:"eee17d5 released on 2011-08-13";}i:2;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:21:"WPLATTE_CACHE_VERSION";i:2;i:4;}}}?><?php
+<?php //netteCache[01]000463a:2:{s:4:"time";s:21:"0.03095500 1438851587";s:9:"callbacks";a:3:{i:0;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:9:"checkFile";}i:1;s:74:"/opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/header.php";i:2;i:1438851544;}i:1;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:20:"NFramework::REVISION";i:2;s:30:"eee17d5 released on 2011-08-13";}i:2;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:21:"WPLATTE_CACHE_VERSION";i:2;i:4;}}}?><?php
 
 // source file: /opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/header.php
 
-?><?php list($_l, $_g) = NCoreMacros::initRuntime($template, 'y5fapmnmy9')
+?><?php list($_l, $_g) = NCoreMacros::initRuntime($template, 'cxk1ypgxi0')
 ;
 // snippets support
 if (!empty($control->snippetMode)) {
@@ -65,7 +65,7 @@ if (!empty($control->snippetMode)) {
 <?php endif ;endif ?>
 
 						<div class="searchicon">
-<?php NCoreMacros::includeTemplate("general-search-form.php", $template->getParams(), $_l->templates['y5fapmnmy9'])->render() ?>
+<?php NCoreMacros::includeTemplate("general-search-form.php", $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
 						</div>
 					</div>
 				</div>
@@ -89,15 +89,7 @@ if (!empty($control->snippetMode)) {
 				<header class="page-header clearfix">
 					<div class="wrapper clearfix">
 						<div class="logo left clearfix">
-							<a href="<?php echo htmlSpecialChars($homeUrl) ?>" class="trademark"><img src="<?php echo htmlSpecialChars($themeOptions->general->logoImg) ?>
-" alt="<?php echo htmlSpecialChars($themeOptions->general->tagline) ?>" /></a>
-							<div class="table">
-<?php if (!empty($themeOptions->general->tagline)): ?>
-								<div class="tagLineHolder">
-									<p class="left textshadow info"><?php echo $themeOptions->general->tagline ?></p>
-								</div>
-<?php endif ?>
-							</div>
+							<a href="<?php echo htmlSpecialChars($homeUrl) ?>"><h1 class="header-logo"><?php echo $themeOptions->general->tagline ?></h1></a>
 						</div>
 						<aside class="quick-info right">
 							<!--	<span class="button share-button right"><a href="<?php if ($site->isHomepage or $site->is404): echo NTemplateHelpers::escapeHtmlComment($homeUrl) ;else: echo NTemplateHelpers::escapeHtmlComment($post->permalink) ;endif ?>" class="share-link" rel="prettySociable">share</a></span>-->
@@ -117,32 +109,32 @@ if (!empty($control->snippetMode)) {
 
 				</header>
 
-<?php if (isset($post) && isset($post->options('slider')->overrideGlobal)): if (function_exists('putRevSlider')): if ($post->options('slider')->sliderDisplay == true): NCoreMacros::includeTemplate("parts/slider.php", array('options' => $post->options('slider')) + $template->getParams(), $_l->templates['y5fapmnmy9'])->render() ?>
+<?php if (isset($post) && isset($post->options('slider')->overrideGlobal)): if (function_exists('putRevSlider')): if ($post->options('slider')->sliderDisplay == true): NCoreMacros::includeTemplate("parts/slider.php", array('options' => $post->options('slider')) + $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
 							<div class="grey-bg-wrap"><div class="grey-bg"></div></div>
 <?php else: ?>
 							<div class="grey-bg-wrap">
 								<div class="grey-bg">
-<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['y5fapmnmy9'])->render() ?>
+<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
 								</div>
 							</div>
 <?php endif ;else: ?>
 						<div class="grey-bg-wrap">
 							<div class="grey-bg">
-<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['y5fapmnmy9'])->render() ?>
+<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
 							</div>
 						</div>
-<?php endif ;else: if (function_exists('putRevSlider')): if ($themeOptions->sections->sliderDisplay == true): NCoreMacros::includeTemplate("parts/slider.php", array('options' => $themeOptions->sections) + $template->getParams(), $_l->templates['y5fapmnmy9'])->render() ?>
+<?php endif ;else: if (function_exists('putRevSlider')): if ($themeOptions->sections->sliderDisplay == true): NCoreMacros::includeTemplate("parts/slider.php", array('options' => $themeOptions->sections) + $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
 							<div class="grey-bg-wrap"><div class="grey-bg"></div></div>
 <?php else: ?>
 							<div class="grey-bg-wrap">
 								<div class="grey-bg">
-<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['y5fapmnmy9'])->render() ?>
+<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
 								</div>
 							</div>
 <?php endif ;else: ?>
 						<div class="grey-bg-wrap">
 							<div class="grey-bg">
-<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['y5fapmnmy9'])->render() ?>
+<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
 							</div>
 						</div>
 <?php endif ;endif ?>
