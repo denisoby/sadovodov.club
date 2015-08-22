@@ -348,7 +348,8 @@ class WpLatteFunctions
 				if ($thisCat->parent != 0)
 					$return .= get_category_parents($parentCat, TRUE, ' ' . $delimiter . ' ');
 
-				$return .= $before . sprintf("%s", single_cat_title('', false)) . $after;
+				//$return .= $before . sprintf("%s", single_cat_title('', false)) . $after;
+				$return .= $before . $after;
 
 			}elseif(is_day()){
 				$return .= '<a href="' . get_year_link(get_the_time('Y')) . '">' . get_the_time('Y') . '</a> ' . $delimiter . ' ';
@@ -378,7 +379,7 @@ class WpLatteFunctions
 					if(!empty($cat)){
 						$cat = $cat[0];
 						$return .= get_category_parents($cat, TRUE, ' ' . $delimiter . ' ');
-						$return .= $before . get_the_title() . $after;
+						$return .= $before . $after;
 					}
 				}
 
