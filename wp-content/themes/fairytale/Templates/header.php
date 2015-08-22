@@ -16,13 +16,42 @@
 	<!--[if lt IE 9]>
 		<script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
 	<![endif]-->
-
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link id="ait-style" rel="stylesheet" type="text/css" media="all" href="{less}">
 	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/fairytale/custom.css">
 	<title>{title}</title>
 </head>
 
 <body <?php body_class("layout-".$themeOptions->general->pageLayout); ?> data-themeurl="{$themeUrl}">
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter31912601 = new Ya.Metrika({
+                    id:31912601,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/31912601" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 {doAction ait-html-body-begin}
 	<div class="mainpage">
 		<div class="main-container">

@@ -1,3 +1,93 @@
+@media all and (max-width: 497px) {
+body {
+        font-size: 20px;
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+}
+.entry-content h1,.mainpage h1 {
+        font-size: 21px !important;
+        line-height: 1.5rem !important;
+}
+
+.entry-content h2,.mainpage h2,.widgets h2.widget-title,h2.widget-title,.page-footer h2.widget-title {
+        font-size: 19px !important;
+        line-height: 1.5rem !important;
+}
+
+.entry-content h3,.mainpage h3,.page-footer h3.widget-title a {
+        font-size: 16px !important;
+        line-height: 1.5rem !important;
+}
+
+.entry-content h4,.mainpage h4 {
+        font-size: 13px !important;
+        line-height: 1.5rem !important;
+}
+
+p,.entry-content p,.widget_text p,.entry-content ul li,.entry-content ol li,.content-text {
+        font-size: 12px !important;
+        line-height: 1rem !important;
+}
+.hentry {
+        text-align:left;
+}
+.top-container.slider-enabled,.top-container.slider-disabled {
+    	min-height: 0;
+}
+.top-container.slider-disabled .grey-bg {
+	border-bottom: none;
+}
+.widget_categories, .left-meta {
+	display: none;
+}
+.home-sidebar, .page-sidebar {
+	width: 100%;
+	padding: 0 !important;
+}
+.blog .page-sidebar {
+        padding: 0 !important;
+}
+.hentry .entry-header {
+     	width: 100% !important;
+}
+#sections {
+	padding-top: 0;
+    	padding-bottom: 0;
+}
+#fixedmenu-container {
+        width: 100%;
+        min-width: 100%;
+}
+
+.mainpage {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+}
+
+#content {
+        padding: 0;
+        width: 100% !important;
+    }
+
+#content .wrapper,.mainbar {
+        width: 100% !important;
+    }
+.toolbar .wrapper {
+        width: 100% !important;
+        padding: 0px;
+}
+.defaultContentWidth,.wrapper,.defaultPageWidth,.page-content,.service-boxes,.footer,.subpage .mainbar,header,.header-content,.social-links,#sections,#sections-container,.mainpage .menu-container,.footer-line,.footer-line .footer-menu,.footer-line .footer-text {
+        width: 100% !important;
+}
+
+}
+
+em {
+    font-style: italic;
+}
+
 #nav-below a, #nav-above a, #nav-single a {
 font-size: 14px;
 }
@@ -26,19 +116,35 @@ margin-left: 10px;
     margin-top: -10px;
 }
 
+.entry-content ul li {
+
+background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABz0lEQVRIS7VVO1aDUBC9Q5JCG7ODuAPTK5F0QqPZAa7Ak3MklmppLHQH6gpMBXYScux1B7KDVKaQMJ6HIUL4CBgpee/dO3Pnzgyh4nc9OVAY0g0BbQHB4JFEPDrde3qIQlIR/CtHPZKAfaNj9cX964l2AeA89S1x39izbsOzQgQRwEvAtwHpOSswZhwPOuZ9KQJxeThRbWLaATAG4TCD4M2QzUCy8gSOphPhLjNy8LjhzY76XXtaiWChPQNwAV8HJAWMNhO/M8M+61ijNPLcGgxftDbN0WLwdN5gt+ZRoO28znrtk1oEanIN7mDXfM3KLJVg6Gg6wOdEtF3EZcz8Lkl8sWpR8TZGcPOsNL36xiNAShHg5B22696sF61DjCBwCmi/Gnj4im1DtroJF4nOzPN3OVK/a8hPdkyi4US9JdBJOaDM25eGbIpu/6nBeuT5JmTweCBbQR2XNfh3gtwBVl63pETBxCR6LI+VfOEz98LOjtvUUadEtPVHEteQzWWDxgjWJNNSnoxO3hRzpVUxC7fufbQzO1mA/qUWUe1z90EVy0a9/+s+ENM0b7mkybe6KnMzEIdlssiKPlHk1cgWrtIXRXcBhMs89i+cO2mZfQH/CcgZutwjtwAAAABJRU5ErkJggg==");
+background-repeat: no-repeat;
+
+list-style-type: none;
+
+margin-bottom: 10px;
+padding: 5px 0 0 35px
+}
+
 .entry-content ol {
-    line-height: 20px;
-    margin-bottom: 20px;
     padding: 0 0 0 16px;
-    list-style: inside none none;
+    counter-reset: li;
+}
+
+.entry-content ol > li:before {
+    border-radius: 50%;
+    background-color: #40960b;
+    color: #fff;
+    content: counter(li, decimal);
+    counter-increment: li;
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
 }
 
 .entry-content ol li {
-    list-style-type: decimal;
-}
-
-.entry-content ol ul li {
-    list-style-type: square;
+    list-style-type: none;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -74,11 +180,23 @@ font-size: 16px;
 font-size: 28px;
 }
 
+.entry-content h2 {
+font-weight: bold;
+padding: 5px 0 5px 0;
+background-color: #e4e4e4;
+}
+
 .entry-content h3 {
+font-weight: bold;
+padding: 5px 0 5px 0;
+background-color: #e4e4e4;
 font-size: 20px;
 }
 
 .entry-content h4 {
+font-weight: bold;
+padding: 5px 0 5px 0;
+background-color: #e4e4e4;
 font-size: 18px;
 }
 
@@ -94,4 +212,36 @@ font-size: 14px;
 color: #fff;
 font-weight: 700;
 font-style: italic;
+}
+
+.attention {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFK0lEQVR4Xu1bTVLbWBD+GouqGVgMVEXehpxgyI4Si8AJIDdITpBwgoETxDlBZk4QOEHMwk52cU4wzhanCrMwmapg99SThLGk9ys9GVPYC1hIeq/76+7vve7Xj3BPP/4RvQLTOzAPsYITetL9+z5EofuYlC93tnDT+DczdzB+Rptf+vOW534AGOzsAY1PWWXH+xR+aS8BmDMCSw+YM+DxdLwMgSUHPDwSTNyWmMLP51XDps4QcJXTigR5EJ0CdJAq3kYwekmbvWFZIOoAgC+3N3Cz/hHAXiIXn1LYfWmS0QiAVFjmHlav98uCwBfRNoi+ZoRjfk7Nbs8ksOx5rPyvtU8g2nYdsxwAMcAVQRhExwD9lVrrhMLusVfl48HMmysjAMmyFbUBelEQsCIIZRSe/UZp+SQEzinspuGgnskOgNjF1tsg/LkoIGiVZ3zD6mjPJkStAIjxNIBAze7zqhZ1+Z4vdntyg9grL+azBsAIAnBEYadlUiJh698TT2IkpEVIyC/4+c3GajzYfQvgXdEb3ZR3BkAPAiuJLE5/f9EBaOXwbplSQtUGT06xymeq9Jh/RC0wvckyvrvypQBQg1Bk3HRtFkwvLFbm10IwOsl7RWFpdoj5vBBOIZD/OHFF3gAm7XwuP634ABtlNJ/5Zgjio3zFKAFhRexOhzahp5KhEgCqQfki+gCiVxUVz3/eorBz5HlMNxK0mZwH0UeARKxrfix/xmSgZbvtrY2ct+949QCt5YXOFP8xyMeADgji9/SkW5ZTCnObpLEGM435D5KlyayzMpYUeBG/9lVF9gJAyvaiypslPGuraxCQe8MQweiZzZ7BZEE/AMjXZUuXN4moCgn1vsM04uzzygBIa/wuElR518NZQnUAZNtSG65zVVw+ptX2WzeVBwBkqfK8ELBLeWsDICW/S1djln5fhmsw2qxChrEHJHFMT/V7F7rKl6zktb06rH8rmWxsSQ4Sl9z4D60+AX8XyRYp12/p11nmXUQAOFNqM/ia2E/wIBoCpEdrZhwKO1PekOfl8/aAbB2CB7uKfbYEDOb+4wYA/H0ZAnckiC09Ca4MHxYJTvR1iAD9mARLL0m3hdKb9TkugwxQTmQfy2AlEKRnBjUQodC7QG98RmHXUHvQa1fJA+LwefRbYVnDUxWXcvl2EZKh2Auk6bCIV/G0qpOJdFgMkx9nQdLhZBURhx1r/cKGiquCoFT+CsH1VpUc4NbRqppn6rDqkpiEuW3dPAZQIuKilcSmqYosFKYPLb1B6DvRgLaoRdGpntlukqKtp1bNr2kkeg7kFr9LBv+hZsfreYO3EJjVVEqKtm6ves+z5b1wQLoHeAqMz+RHY2i5ZJpy3fkKhLfyo7HGAXjSp+bn92XxLeUB8uYExeHoeO24cJJrLS2fILhumQ9Hy7frOAOg7swwHI/fNA4BPpS22mQA4TOA2gjGp27H4+VAcAJA35Pj0iDxW9rN1Uj/j9MGif96Nmu7ukHCHQRrAEw9OdTsZFvUrN283IvqFhk3EKwAMClv25BUTlUFNXpq3LIDQNkmV64txRcQ2sYtoE1hZ980lxEAeeU3zs2tW9FkQmSrt+UTGz0IHhol5a2yFZWvpVVW0sdo0X5r9ICk6DHbLM3nCK4Pbdha5X71NUuviabupKOVYbVttgIgAUE0JQE+LjbVAcBdLrKzBy4WcJU7bBNJ1PG8TgBc5bX2ANeBde8vAVhemlpemnp4l6aWHOARgUd/eTreV8TX55HcEyIc+2p8dLXT/1AtU34eD1aNAAAAAElFTkSuQmCC");
+    background-color: #61a607;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px 5px 20px 0;
+    padding: 28px 20px 28px 113px;
+    color: yellow;
+    font-size: 18px;
+}
+
+.thumbnail {
+    background-color: #e4e4e4;
+    border-radius: 4px;
+    line-height: 0;
+    margin: 5px 20px 10px 0;
+    padding: 4px;
+}
+.thumbnail-left {
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.thumbnail-right {
+    float: right;
+    margin: 5px 0 10px 20px;
+    overflow: hidden;
+    position: relative;
 }

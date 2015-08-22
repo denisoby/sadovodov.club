@@ -1,8 +1,8 @@
-<?php //netteCache[01]000463a:2:{s:4:"time";s:21:"0.03095500 1438851587";s:9:"callbacks";a:3:{i:0;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:9:"checkFile";}i:1;s:74:"/opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/header.php";i:2;i:1438851544;}i:1;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:20:"NFramework::REVISION";i:2;s:30:"eee17d5 released on 2011-08-13";}i:2;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:21:"WPLATTE_CACHE_VERSION";i:2;i:4;}}}?><?php
+<?php //netteCache[01]000463a:2:{s:4:"time";s:21:"0.41090900 1439481459";s:9:"callbacks";a:3:{i:0;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:9:"checkFile";}i:1;s:74:"/opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/header.php";i:2;i:1439481450;}i:1;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:20:"NFramework::REVISION";i:2;s:30:"eee17d5 released on 2011-08-13";}i:2;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:21:"WPLATTE_CACHE_VERSION";i:2;i:4;}}}?><?php
 
 // source file: /opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/header.php
 
-?><?php list($_l, $_g) = NCoreMacros::initRuntime($template, 'cxk1ypgxi0')
+?><?php list($_l, $_g) = NCoreMacros::initRuntime($template, '84jhmudrl3')
 ;
 // snippets support
 if (!empty($control->snippetMode)) {
@@ -30,13 +30,42 @@ if (!empty($control->snippetMode)) {
 	<!--[if lt IE 9]>
 		<script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
 	<![endif]-->
-
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<link id="ait-style" rel="stylesheet" type="text/css" media="all" href="<?php echo WpLatteFunctions::lessify() ?>" />
 	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/fairytale/custom.css" />
 	<title><?php echo WpLatteFunctions::getTitle() ?></title>
 </head>
 
 <body <?php body_class("layout-".$themeOptions->general->pageLayout) ?> data-themeurl="<?php echo NTemplateHelpers::escapeHtml($themeUrl, ENT_NOQUOTES) ?>">
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter31912601 = new Ya.Metrika({
+                    id:31912601,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/31912601" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 <?php do_action("ait-html-body-begin") ?>
 	<div class="mainpage">
 		<div class="main-container">
@@ -65,7 +94,7 @@ if (!empty($control->snippetMode)) {
 <?php endif ;endif ?>
 
 						<div class="searchicon">
-<?php NCoreMacros::includeTemplate("general-search-form.php", $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
+<?php NCoreMacros::includeTemplate("general-search-form.php", $template->getParams(), $_l->templates['84jhmudrl3'])->render() ?>
 						</div>
 					</div>
 				</div>
@@ -109,32 +138,32 @@ if (!empty($control->snippetMode)) {
 
 				</header>
 
-<?php if (isset($post) && isset($post->options('slider')->overrideGlobal)): if (function_exists('putRevSlider')): if ($post->options('slider')->sliderDisplay == true): NCoreMacros::includeTemplate("parts/slider.php", array('options' => $post->options('slider')) + $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
+<?php if (isset($post) && isset($post->options('slider')->overrideGlobal)): if (function_exists('putRevSlider')): if ($post->options('slider')->sliderDisplay == true): NCoreMacros::includeTemplate("parts/slider.php", array('options' => $post->options('slider')) + $template->getParams(), $_l->templates['84jhmudrl3'])->render() ?>
 							<div class="grey-bg-wrap"><div class="grey-bg"></div></div>
 <?php else: ?>
 							<div class="grey-bg-wrap">
 								<div class="grey-bg">
-<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
+<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['84jhmudrl3'])->render() ?>
 								</div>
 							</div>
 <?php endif ;else: ?>
 						<div class="grey-bg-wrap">
 							<div class="grey-bg">
-<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
+<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['84jhmudrl3'])->render() ?>
 							</div>
 						</div>
-<?php endif ;else: if (function_exists('putRevSlider')): if ($themeOptions->sections->sliderDisplay == true): NCoreMacros::includeTemplate("parts/slider.php", array('options' => $themeOptions->sections) + $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
+<?php endif ;else: if (function_exists('putRevSlider')): if ($themeOptions->sections->sliderDisplay == true): NCoreMacros::includeTemplate("parts/slider.php", array('options' => $themeOptions->sections) + $template->getParams(), $_l->templates['84jhmudrl3'])->render() ?>
 							<div class="grey-bg-wrap"><div class="grey-bg"></div></div>
 <?php else: ?>
 							<div class="grey-bg-wrap">
 								<div class="grey-bg">
-<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
+<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['84jhmudrl3'])->render() ?>
 								</div>
 							</div>
 <?php endif ;else: ?>
 						<div class="grey-bg-wrap">
 							<div class="grey-bg">
-<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['cxk1ypgxi0'])->render() ?>
+<?php NCoreMacros::includeTemplate("parts/breadcrumbs.php", $template->getParams(), $_l->templates['84jhmudrl3'])->render() ?>
 							</div>
 						</div>
 <?php endif ;endif ?>
