@@ -1,9 +1,38 @@
-@media all and (max-width: 497px) {
+@media all and (max-width: 768px) {	
+	#wprmenu_menu {
+		background: none !important;
+	}
+	#wprmenu_bar {
+		background: none;
+		height: 50px;
+		padding: 0.5em;
+	}
+	#wprmenu_bar .wprmenu_icon {
+		margin-top: 5px;
+		margin-right: 0;
+	}
+	#wprmenu_bar .menu_title {
+		float: right;
+		font-size: 28px;
+		font-weight: 700;
+		font-style: italic;
+		font-family: "OswaldLight";
+	}
+	.widget_categories, .left-meta, .entry-meta, #fixedmenu-container, .page-header {
+		display: none;
+	}
 body {
         font-size: 20px;
         min-width: 100%;
         max-width: 100%;
         width: 100%;
+}
+.toc_list {
+	font-size: 16px;
+}
+a.image-present {
+	font-size: 28px;
+	font-weight: bold;
 }
 .entry-content h1,.mainpage h1 {
         font-size: 21px !important;
@@ -38,9 +67,6 @@ p,.entry-content p,.widget_text p,.entry-content ul li,.entry-content ol li,.con
 .top-container.slider-disabled .grey-bg {
 	border-bottom: none;
 }
-.widget_categories, .left-meta {
-	display: none;
-}
 .home-sidebar, .page-sidebar {
 	width: 100%;
 	padding: 0 !important;
@@ -54,10 +80,6 @@ p,.entry-content p,.widget_text p,.entry-content ul li,.entry-content ol li,.con
 #sections {
 	padding-top: 0;
     	padding-bottom: 0;
-}
-#fixedmenu-container {
-        width: 100%;
-        min-width: 100%;
 }
 
 .mainpage {
