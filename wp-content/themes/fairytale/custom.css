@@ -1,136 +1,5 @@
-@media all and (max-width: 768px) {	
-	#wprmenu_menu {
-		background: none !important;
-	}
-	#wprmenu_bar {
-		height: 50px;
-		padding: 0.5em;
-	}
-	#wprmenu_bar .wprmenu_icon {
-		margin-top: 5px;
-		margin-right: 0;
-	}
-	#wprmenu_bar .menu_title {
-		float: right;
-		font-size: 28px;
-		font-weight: 700;
-		font-style: italic;
-		font-family: "OswaldLight";
-		margin-top: 5px;
-	}
-	.widget_categories, .left-meta, .entry-meta, #fixedmenu-container, .page-header {
-		display: none;
-	}
-	.subpage .entry-content .hentry .entry-header img {
-		margin-bottom: 0;
-	}
-	.top-container.slider-disabled .grey-bg {
-		background: #fff;
-	}
-	.main-title {
-		background: #e4e4e4;
-	}
-	.single-post h1 {
-		margin-bottom: 0;
-		padding: 0.5em 0;
-	}
-	.single-post .hentry .entry-header img {
-		margin-bottom: 1em !important;
-	}
-	.hentry .entry-content,.hentry h2.entry-title,.hentry .entry-meta {
-		padding-left: 0;
-	}
-	p {
-		padding: 0 0.5em;
-	}
-	.toc_list {
-		font-size: 16px;
-	}
-	#toc_container {
-		margin-left: 0.5em;
-	}
-
-	body {
-		font-size: 20px;
-		min-width: 100%;
-		max-width: 100%;
-		width: 100%;
-	}
-
-a.image-present {
-	font-size: 28px;
-	font-weight: bold;
-}
-.entry-content h1,.mainpage h1 {
-        font-size: 21px !important;
-        line-height: 1.5rem !important;
-}
-
-.entry-content h2,.mainpage h2,.widgets h2.widget-title,h2.widget-title,.page-footer h2.widget-title {
-        font-size: 19px !important;
-        line-height: 1.5rem !important;
-}
-
-.entry-content h3,.mainpage h3,.page-footer h3.widget-title a {
-        font-size: 16px !important;
-        line-height: 1.5rem !important;
-}
-
-.entry-content h4,.mainpage h4 {
-        font-size: 13px !important;
-        line-height: 1.5rem !important;
-}
-
-p,.entry-content p,.widget_text p,.entry-content ul li,.entry-content ol li,.content-text {
-        font-size: 12px !important;
-        line-height: 1rem !important;
-}
-.hentry {
-        text-align:left;
-}
-.top-container.slider-enabled,.top-container.slider-disabled {
-    	min-height: 0;
-}
-.top-container.slider-disabled .grey-bg {
-	border-bottom: none;
-}
-.home-sidebar, .page-sidebar {
-	width: 100%;
-	padding: 0 !important;
-}
-.blog .page-sidebar {
-        padding: 0 !important;
-}
-.hentry .entry-header {
-     	width: 100% !important;
-}
-#sections {
-	padding-top: 0;
-    	padding-bottom: 0;
-}
-
-.mainpage {
-        margin: 0;
-        max-width: 100%;
-        width: 100%;
-}
-
-#content {
-        padding: 0;
-        width: 100% !important;
-    }
-
-#content .wrapper,.mainbar {
-        width: 100% !important;
-    }
-.toolbar .wrapper {
-        width: 100% !important;
-        padding: 0px;
-}
-.defaultContentWidth,.wrapper,.defaultPageWidth,.page-content,.service-boxes,.footer,.subpage .mainbar,header,.header-content,.social-links,#sections,#sections-container,.mainpage .menu-container,.footer-line,.footer-line .footer-menu,.footer-line .footer-text {
-        width: 100% !important;
-}
-
+#respond input,#respond textarea {
+    text-transform: none;
 }
 
 .scroll-back-to-top-wrapper {
@@ -297,4 +166,141 @@ font-style: italic;
     margin: 5px 0 10px 20px;
     overflow: hidden;
     position: relative;
+}
+
+@media all and (max-width: 768px) {	
+	#wprmenu_menu {
+		background: none !important;
+	}
+	#wprmenu_bar {
+		height: 50px;
+		padding: 0.5em;
+	}
+	#wprmenu_bar .wprmenu_icon {
+		margin-top: 5px;
+		margin-right: 0;
+	}
+	#wprmenu_bar .menu_title {
+		float: right;
+		font-size: 28px;
+		font-weight: 700;
+		font-style: italic;
+		font-family: "OswaldLight";
+		margin-top: 5px;
+	}
+	.widget_categories, .left-meta, .entry-meta, #fixedmenu-container, .page-header {
+		display: none;
+	}
+	.subpage .entry-content .hentry .entry-header img {
+		margin-bottom: 0;
+	}
+	.top-container.slider-disabled .grey-bg {
+		background: #fff;
+	}
+	.main-title {
+		background: #e4e4e4;
+	}
+	.single-post h1 {
+		margin-bottom: 0;
+		padding: 0.5em 0;
+	}
+	.single-post .hentry .entry-header img {
+		margin-bottom: 1em !important;
+	}
+	.hentry .entry-content,.hentry h2.entry-title,.hentry .entry-meta {
+		padding-left: 0;
+	}
+	p {
+		padding: 0 0.5em;
+	}
+	.toc_list {
+		font-size: 16px;
+	}
+	#toc_container {
+		margin-left: 0.5em;
+	}
+	.attention {
+		padding: 14px 20px 14px 113px;
+	}
+	body {
+		font-size: 20px;
+		min-width: 100%;
+		max-width: 100%;
+		width: 100%;
+	}
+
+a.image-present {
+	font-size: 28px;
+	font-weight: bold;
+}
+.entry-content h1,.mainpage h1 {
+        font-size: 21px !important;
+        line-height: 1.5rem !important;
+}
+
+.entry-content h2,.mainpage h2,.widgets h2.widget-title,h2.widget-title,.page-footer h2.widget-title {
+        font-size: 19px !important;
+        line-height: 1.5rem !important;
+}
+
+.entry-content h3,.mainpage h3,.page-footer h3.widget-title a {
+        font-size: 16px !important;
+        line-height: 1.5rem !important;
+}
+
+.entry-content h4,.mainpage h4 {
+        font-size: 13px !important;
+        line-height: 1.5rem !important;
+}
+
+p,.entry-content p,.widget_text p,.entry-content ul li,.entry-content ol li,.content-text {
+        font-size: 12px !important;
+        line-height: 1rem !important;
+}
+.hentry {
+        text-align:left;
+}
+.top-container.slider-enabled,.top-container.slider-disabled {
+    	min-height: 0;
+}
+.top-container.slider-disabled .grey-bg {
+	border-bottom: none;
+}
+.home-sidebar, .page-sidebar {
+	width: 100%;
+	padding: 0 !important;
+}
+.blog .page-sidebar {
+        padding: 0 !important;
+}
+.hentry .entry-header {
+     	width: 100% !important;
+}
+#sections {
+	padding-top: 0;
+    	padding-bottom: 0;
+}
+
+.mainpage {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+}
+
+#content {
+        padding: 0;
+        width: 100% !important;
+    }
+
+#content .wrapper,.mainbar {
+        width: 100% !important;
+    }
+.toolbar .wrapper {
+        width: 100% !important;
+        padding: 0px;
+}
+.defaultContentWidth,.wrapper,.defaultPageWidth,.page-content,.service-boxes,.footer,.subpage .mainbar,header,.header-content,.social-links,#sections,#sections-container,.mainpage .menu-container,.footer-line,.footer-line .footer-menu,.footer-line .footer-text {
+        width: 100% !important;
+}
+
 }
