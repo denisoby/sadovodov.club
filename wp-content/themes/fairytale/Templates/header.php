@@ -10,7 +10,6 @@
 	<meta name="author" content="AitThemes.club, http://www.ait-themes.club">
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="{$site->pingbackUrl}">
 	{head}
 
 	<!--[if lt IE 9]>
