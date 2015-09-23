@@ -1,8 +1,8 @@
-<?php //netteCache[01]000475a:2:{s:4:"time";s:21:"0.50942200 1437883955";s:9:"callbacks";a:3:{i:0;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:9:"checkFile";}i:1;s:86:"/opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/parts/testimonials.php";i:2;i:1437883843;}i:1;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:20:"NFramework::REVISION";i:2;s:30:"eee17d5 released on 2011-08-13";}i:2;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:21:"WPLATTE_CACHE_VERSION";i:2;i:4;}}}?><?php
+<?php //netteCache[01]000475a:2:{s:4:"time";s:21:"0.67363900 1441808008";s:9:"callbacks";a:3:{i:0;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:9:"checkFile";}i:1;s:86:"/opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/parts/testimonials.php";i:2;i:1437883843;}i:1;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:20:"NFramework::REVISION";i:2;s:30:"eee17d5 released on 2011-08-13";}i:2;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:21:"WPLATTE_CACHE_VERSION";i:2;i:4;}}}?><?php
 
 // source file: /opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/parts/testimonials.php
 
-?><?php list($_l, $_g) = NCoreMacros::initRuntime($template, '0tw5y96rn1')
+?><?php list($_l, $_g) = NCoreMacros::initRuntime($template, '6f5dbzebyj')
 ;
 // snippets support
 if (!empty($control->snippetMode)) {

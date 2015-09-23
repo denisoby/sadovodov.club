@@ -1,41 +1,41 @@
-<?php //netteCache[01]000464a:2:{s:4:"time";s:21:"0.28279700 1439366750";s:9:"callbacks";a:3:{i:0;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:9:"checkFile";}i:1;s:75:"/opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/@layout.php";i:2;i:1439366747;}i:1;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:20:"NFramework::REVISION";i:2;s:30:"eee17d5 released on 2011-08-13";}i:2;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:21:"WPLATTE_CACHE_VERSION";i:2;i:4;}}}?><?php
+<?php //netteCache[01]000464a:2:{s:4:"time";s:21:"0.44629600 1441808008";s:9:"callbacks";a:3:{i:0;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:9:"checkFile";}i:1;s:75:"/opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/@layout.php";i:2;i:1439366747;}i:1;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:20:"NFramework::REVISION";i:2;s:30:"eee17d5 released on 2011-08-13";}i:2;a:3:{i:0;a:2:{i:0;s:6:"NCache";i:1;s:10:"checkConst";}i:1;s:21:"WPLATTE_CACHE_VERSION";i:2;i:4;}}}?><?php
 
 // source file: /opt/sites/sadovodov.club/wp-content/themes/fairytale/Templates/@layout.php
 
-?><?php list($_l, $_g) = NCoreMacros::initRuntime($template, 'g59mgiimza')
+?><?php list($_l, $_g) = NCoreMacros::initRuntime($template, 'nmg3eog7m8')
 ;//
 // block sectionA
 //
-if (!function_exists($_l->blocks['sectionA'][] = '_lbec91f8a41d_sectionA')) { function _lbec91f8a41d_sectionA($_l, $_args) { extract($_args)
+if (!function_exists($_l->blocks['sectionA'][] = '_lbf3b4b7c64b_sectionA')) { function _lbf3b4b7c64b_sectionA($_l, $_args) { extract($_args)
 ;NUIMacros::callBlock($_l, 'content', $template->getParams()) ;
 }}
 
 //
 // block sectionB
 //
-if (!function_exists($_l->blocks['sectionB'][] = '_lb331058d07d_sectionB')) { function _lb331058d07d_sectionB($_l, $_args) { extract($_args)
-;NCoreMacros::includeTemplate("parts/service-boxes.php", array('options' => $themeOptions->sections) + $template->getParams(), $_l->templates['g59mgiimza'])->render() ;
+if (!function_exists($_l->blocks['sectionB'][] = '_lb24921444a6_sectionB')) { function _lb24921444a6_sectionB($_l, $_args) { extract($_args)
+;NCoreMacros::includeTemplate("parts/service-boxes.php", array('options' => $themeOptions->sections) + $template->getParams(), $_l->templates['nmg3eog7m8'])->render() ;
 }}
 
 //
 // block sectionC
 //
-if (!function_exists($_l->blocks['sectionC'][] = '_lbd2bea4b2de_sectionC')) { function _lbd2bea4b2de_sectionC($_l, $_args) { extract($_args)
-;NCoreMacros::includeTemplate("parts/testimonials.php", array('options' => $themeOptions->sections) + $template->getParams(), $_l->templates['g59mgiimza'])->render() ;
+if (!function_exists($_l->blocks['sectionC'][] = '_lbd4d8f0b1cf_sectionC')) { function _lbd4d8f0b1cf_sectionC($_l, $_args) { extract($_args)
+;NCoreMacros::includeTemplate("parts/testimonials.php", array('options' => $themeOptions->sections) + $template->getParams(), $_l->templates['nmg3eog7m8'])->render() ;
 }}
 
 //
 // block sectionD
 //
-if (!function_exists($_l->blocks['sectionD'][] = '_lbfa6ac99c92_sectionD')) { function _lbfa6ac99c92_sectionD($_l, $_args) { extract($_args)
-;NCoreMacros::includeTemplate("parts/icon-menu.php", array('options' => $themeOptions->sections) + $template->getParams(), $_l->templates['g59mgiimza'])->render() ;
+if (!function_exists($_l->blocks['sectionD'][] = '_lb8253897db9_sectionD')) { function _lb8253897db9_sectionD($_l, $_args) { extract($_args)
+;NCoreMacros::includeTemplate("parts/icon-menu.php", array('options' => $themeOptions->sections) + $template->getParams(), $_l->templates['nmg3eog7m8'])->render() ;
 }}
 
 //
 // block sectionE
 //
-if (!function_exists($_l->blocks['sectionE'][] = '_lb7ef7d538e4_sectionE')) { function _lb7ef7d538e4_sectionE($_l, $_args) { extract($_args)
-;NCoreMacros::includeTemplate("parts/partners.php", array('options' => $themeOptions->sections) + $template->getParams(), $_l->templates['g59mgiimza'])->render() ;
+if (!function_exists($_l->blocks['sectionE'][] = '_lb3e397e04c4_sectionE')) { function _lb3e397e04c4_sectionE($_l, $_args) { extract($_args)
+;NCoreMacros::includeTemplate("parts/partners.php", array('options' => $themeOptions->sections) + $template->getParams(), $_l->templates['nmg3eog7m8'])->render() ;
 }}
 
 //
@@ -67,7 +67,7 @@ get_header("") ?>
 					</h1>
 					<div class="entry-meta">
 						<!--
-<?php NCoreMacros::includeTemplate("parts/post-meta.php", $template->getParams(), $_l->templates['g59mgiimza'])->render() ;if ($post->isSingle and $post->author->bio and $post->isMultiAuthor): NCoreMacros::includeTemplate("parts/author-bio.php", $template->getParams(), $_l->templates['g59mgiimza'])->render() ;endif ?>
+<?php NCoreMacros::includeTemplate("parts/post-meta.php", $template->getParams(), $_l->templates['nmg3eog7m8'])->render() ;if ($post->isSingle and $post->author->bio and $post->isMultiAuthor): NCoreMacros::includeTemplate("parts/author-bio.php", $template->getParams(), $_l->templates['nmg3eog7m8'])->render() ;endif ?>
 						-->
 					</div>
 				</div>
